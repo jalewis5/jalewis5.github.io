@@ -1,58 +1,21 @@
-#img-and-text{
-    width:350px;
-    height:600px;
-    display: inline-block;
-}
-
-#link-to-index{
-    background-color: lightblue;
-    width: 100px;
-    height: 60px;
-    display: inline-block;
-    float: top;
-    margin-left: 40px;
-    border-radius: 25px;
-    padding: 20px
-}
-
-#little-prince-img{
-    width: 350px;
-    height: 300px;
-}
-
-#add-orange{
-    background-color: orange;
-}
-
-.add-red{
-    color: red;
-}
+/*index page*/
 #index-header{
-    font-family:fantasy;
+    height: 100px;
+    width: 100%;
+    font-size:500%;
+    font-family: 'Brush Script MT', cursive;
     background-color: darkblue;
     color: gold;
-    text-align: center
-}
+    text-align: center;
 
-#about-me-div{
-    width:400px;
-    height:350px;
-    display: inline-block;
-    border-radius: 25px;
-    padding:20px;
-    float: left;
-    background-color: gold;
-    color: darkblue;
-    border: 3px solid black;
 }
 
 #index-headshot-div{
-    width:360px;
+    width:320px;
     height:350px;
-    display: inline-block;
     border-radius: 25px;
     padding:20px;
-    margin: 0 auto
+    margin: 0 auto;
 }
 
 #index-headshot-nametag-div{
@@ -61,62 +24,79 @@
     width: 320px;
     border-radius: 25px;
     border: 3px solid black;
+    margin: auto;
 }
 
-#school-schedule-div{
-    width:440px;
-    height:350px;
-    display: inline-block;
-    border-radius: 25px;
-    padding:20px;
-    float: right;
-    background-color: gold;
-    color: darkblue;
-    border: 3px solid black;
-}
-
-#introduction-link-div{
-    display: inline-block;
-    border-radius: 25px;
-    padding:20px;
-    background-color: gold;
-    color: darkblue;
-    border: 3px solid black;
-}
-
-#little-prince-link-div{
-    display: inline-block;
-    border-radius: 25px;
-    padding:20px;
-    background-color: gold;
-    color: darkblue;
-    border: 3px solid black;
-}
-
-#Assignment-3-link-div{
-    display: inline-block;
-    border-radius: 25px;
-    padding:20px;
-    background-color: gold;
-    color: darkblue;
-    border: 3px solid black;
-}
-
+/* text that has name and major on it */
 .name-and-major{
     text-align: center;
 }
 
+/* Link to intro page on index page */
+#introduction-link-div{
+    /*display: inline-block;*/
+    border-radius: 25px;
+    padding:25px;
+    background-color: gold;
+    color: darkblue;
+    border: 3px solid black;
+    margin: auto;
+    width: 5%;
+}
+
+/*On the introduction page*/
 #intro-header{
-    font-family:fantasy;
+    height: 67px;
+    width: 100%;
+    font-size:300%;
+    font-family: 'Brush Script MT', cursive;
     background-color: lightgrey;
     color: black;
     text-align: center;
+}
+
+#about-me-div{
+    width:320px;
+    height:350px;
+    display: inline-block;
+    border-radius: 25px;
+    padding:30px;
+    float: left;
+    background-color: lightgrey;
+    color: black;
+    border: 3px solid black;
+    margin: auto;
+}
+
+#classes-div{
+    width:320px;
+    height:350px;
+    display: inline-block;
+    border-radius: 25px;
+    padding:30px;
+    /*float: cent;*/
+    background-color: lightgrey;
+    color: black;
+    border: 3px solid black;
+    margin: auto;
 }
 
 #intro-link-to-index{
     width: 200px;
     background-color: lightgray;
     color:black;
+    float: right;
+    padding: 20px;
+    border-radius: 25px;
+    border:2px solid black;
+    text-align: center;
+}
+
+#linkedin_link{
+    width: 200px;
+    background-color: lightgray;
+    color:black;
+    float: right;
     padding: 20px;
     border-radius: 25px;
     border:2px solid black;
@@ -124,33 +104,25 @@
     display: inline-block;
 }
 
-#intro-table-div{
-    width: 600px;
-    height:370px;
+#resume_link{
+    width: 200px;
     background-color: lightgray;
     color:black;
+    float: right;
     padding: 20px;
     border-radius: 25px;
-    margin: 0 auto;
     border:2px solid black;
+    text-align: center;
+    display: inline-block;
 }
 
-#new-york-image{
-    width: 400px;
-    background-color: lightgray;
-    color:black;
-    padding: 20px;
+#menu-links{
+    font-size: 150%;
+    width:320px;
+    height:350px;
+    display: inline-block;
     border-radius: 25px;
-    float: left;
-    border:2px solid black;
-}
-
-#idaho-img{
-    width: 665px;
-    background-color: lightgray;
-    color:black;
-    padding: 20px;
-    border-radius: 25px;
+    padding:30px;
     float:right;
-    border:2px solid black;
 }
+
